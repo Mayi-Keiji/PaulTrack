@@ -13,26 +13,13 @@
 
     <script src="js/modernizr.js"></script>
     <script> 
-        window.onload = function(){
-          document.body.addEventListener('touchstart',function(){},false); 
-          
-          
-        var a=document.getElementsByTagName('a');
-        for(var i=0;i<a.length;i++){
-
-                    a[i].addEventListener('touchstart',function(){},false);
-                }
-                
-        var b=document.getElementsByClassName('map-rect');
-        for(var i=0;i<b.length;i++){
-
-                    b[i].addEventListener('touchstart',function(){},false);
-                    b[i].addEventListener('touchend',function(){},false);
-                }
-                
-
-
+    function load (){
+         document.addEventListener('touchstart',touch,false);
+         document.addEventListener('touchmove',touch,false);
+         document.addEventListener('touchend',touch,false);
         }
+        
+        window.addEventListener('load',load,false);
     </script>
 
 </head>
