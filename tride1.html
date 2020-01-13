@@ -23,10 +23,11 @@
                     a[i].addEventListener('touchstart',function(){},false);
                 }
                 
-        var b=document.getElementsByTagName('map-rect');
+        var b=document.getElementsByClassName('map-rect');
         for(var i=0;i<b.length;i++){
 
                     b[i].addEventListener('touchstart',function(){},false);
+                    b[i].addEventListener('touchend',function(){},false);
                 }
                 
 
