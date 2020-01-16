@@ -16,13 +16,17 @@
         
         document.addEventListener("touchstart", function() {}, false);
         
+        function myFunction() {
+            var x = document.activeElement.tagName;
+            document.getElementById("demo").innerHTML = x;
+        }
     
     </script>
 
 </head>
 
-<body >
-
+<body onclick="myFunction()">
+<p id="demo"></p>
 
 <div class="distribution-map">
     <img src="./imgs/trip11.png">
