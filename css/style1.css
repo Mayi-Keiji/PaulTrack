@@ -34,7 +34,7 @@
 }
 
 .distribution-map .map-point {
-  padding：0px;
+  padding: 0px;
   cursor: pointer;
   outline: none;
   z-index: 0;
