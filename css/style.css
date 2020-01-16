@@ -274,7 +274,7 @@ li.active a, a:hover, a:active {
   transform: translateX(-50%);
   overflow: overlay;
 }
-.distribution-map .map-button5:active, .distribution-map .map-button5:focus {
+.distribution-map .map-button5:hover, .distribution-map .map-button5:focus {
   margin: 0;
   padding: 0;
   opacity: 1;
@@ -285,13 +285,13 @@ li.active a, a:hover, a:active {
   -webkit-transition: opacity 0.25s ease-in-out, width 0.25s ease-in-out, height 0.25s ease-in-out;
   transition: opacity 0.25s ease-in-out, width 0.25s ease-in-out, height 0.25s ease-in-out;
 }
-.distribution-map .map-button5:active .content, .distribution-map .map-button5:focus .content {
+.distribution-map .map-button5:hover .content, .distribution-map .map-button5:focus .content {
  
   opacity: 1;
   
   transition: opacity 0.25s ease-in-out 0.25s, height 0 ease-in-out 0.25s, overflow 0 ease-in-out 0.25s;
   overflow: hidden;
 }
-.distribution-map .map-button5:active .content a:hover, .distribution-map .map-button5:active .content a:active, .distribution-map .map-button5:focus .content a:hover, .distribution-map .map-button5:focus .content a:active {
+.distribution-map .map-button5:hover .content a:hover, .distribution-map .map-button5:active .content a:active, .distribution-map .map-button5:focus .content a:hover, .distribution-map .map-button5:focus .content a:active {
   color: #afe1fa;
 }

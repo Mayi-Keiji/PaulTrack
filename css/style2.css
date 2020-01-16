@@ -1,36 +1,4 @@
 
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-}
-
-.centered-y {
-  position: absolute;
-  width: 100%;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
-
-.distribution-map {
-  position: relative;
-  width: 100%;
-  padding: 20px;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  margin: 0 auto;
-}
-.distribution-map > img {
-  width: 100%;
-  position: relative;
-  margin: 0;
-  padding: 0;
-}
 
 .distribution-map .map-point {
   cursor: pointer;
@@ -68,7 +36,7 @@
   transform: translateX(-50%);
   overflow: overlay;
 }
-.distribution-map .map-point:active, .distribution-map .map-point:focus {
+.distribution-map .map-point:hover, .distribution-map .map-point:focus {
   margin: 0;
   padding: 0;
   filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
@@ -80,7 +48,7 @@
   -webkit-transition: opacity 0.25s ease-in-out, width 0.25s ease-in-out, height 0.25s ease-in-out;
   transition: opacity 0.25s ease-in-out, width 0.25s ease-in-out, height 0.25s ease-in-out;
 }
-.distribution-map .map-point:active .content, .distribution-map .map-point:focus .content {
+.distribution-map .map-point:hover .content, .distribution-map .map-point:focus .content {
   filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
   opacity: 1;
   -moz-transition: opacity 0.25s ease-in-out 0.25s, height 0 ease-in-out 0.25s, overflow 0 ease-in-out 0.25s;
@@ -91,7 +59,7 @@
           transition: opacity 0.25s ease-in-out 0.25s, height 0 ease-in-out 0.25s, overflow 0 ease-in-out 0.25s;
   overflow: hidden;
 }
-.distribution-map .map-point:active .content a:hover, .distribution-map .map-point:active .content a:active, .distribution-map .map-point:focus .content a:hover, .distribution-map .map-point:focus .content a:active {
+.distribution-map .map-point:hover .content a:hover, .distribution-map .map-point:active .content a:active, .distribution-map .map-point:focus .content a:hover, .distribution-map .map-point:focus .content a:active {
   color: #afe1fa;
 }
 
