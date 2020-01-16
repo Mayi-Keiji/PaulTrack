@@ -16,10 +16,12 @@
         
         document.addEventListener("touchstart", function() {}, false);
         
-        function myFunction() {
-            var x = document.activeElement.tagName;
-            document.getElementById("demo").innerHTML = x;
-        }
+       
+       $("button").on("touchstart", function(){
+            $(this).find("div").addClass(".getfocus");
+            $(this).find("div").removeClass(".getfocus");
+        });
+        
     
     </script>
 
