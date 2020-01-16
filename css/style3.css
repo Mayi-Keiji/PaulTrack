@@ -7,8 +7,7 @@
   position: absolute;
   width: 20px;
   height: 20px;
-  border-radius:50%
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+  border-radius:50%;
   opacity: 0.8;
   -ms-transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
